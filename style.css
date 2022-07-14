@@ -348,15 +348,25 @@
 
 @media screen and (max-width: 400px) {
     .main__content h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
+        font-size: 2.6rem;
+        margin-top: 0.5rem;
+        text-align: left;
     }
     .main__content h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .main__content h3{
+        text-align: left;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
     }
     .main__content p {
         margin-top: 2rem;
-        font-size: 1.5rem;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 30px;
     }
     .main__btn {
         padding: 12px 36px;

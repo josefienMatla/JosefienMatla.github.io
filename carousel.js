@@ -5,17 +5,20 @@ const swiper = new Swiper(".swiper--tippie", {
     grabCursor: true,
     // Responsive breakpoints
     breakpoints: {
-        0: {
+        // when window width is >= 320px
+        320: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
         },
-        768: {
-            slidesPerView: 2,
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
             spaceBetween: 40,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 60,
         },
     },
     pagination: {
@@ -31,17 +34,20 @@ const swiper2 = new Swiper(".swiper--tripple", {
     grabCursor: true,
     // Responsive breakpoints
     breakpoints: {
-        0: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        // when window width is >= 480px
+        480: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
-        768: {
-            slidesPerView: 2,
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
             spaceBetween: 40,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 60,
         },
     },
     pagination: {
@@ -57,17 +63,20 @@ const swiper3 = new Swiper(".swiper--vr", {
     grabCursor: true,
     // Responsive breakpoints
     breakpoints: {
-        0: {
+        // when window width is >= 320px
+        320: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
         },
-        768: {
-            slidesPerView: 2,
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
             spaceBetween: 40,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 60,
         },
     },
     pagination: {
